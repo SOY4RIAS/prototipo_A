@@ -1,0 +1,251 @@
+<resources>
+    <string name="app_name">Feria Tecnologica CEAI</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling2">Feria Tecnologica CEAI</string>
+
+    <!--
+             Arreglo de la informacion de los eventos,
+             ****POSICIONES
+                            titulo              =   0
+                            fecha               =   1  DD/MM/AAAA
+                            descripcion         =   2
+                            hora inicio         =   3  la hora deberá estar en formato 24H
+                            hora finalizacion   =   4  la hora deberá estar en formato 24H
+                            imagen              =   5  nombre del archivo sin extension
+
+    -->
+
+    <string-array name="eventsInfo">
+
+        <item>"SENASOFT 2017-Muestra"</item>
+        <item>30/11/2017</item>
+        <item>"En el II Encuentro De Emprendimiento, Investigación y Desarrollo Tecnológico en Electricidad,Electrónica y Teleinformática, Se desarrolla una muestra de las competencias SENASOFT, en donde los aprendices demuestran sus habilidades en diferentes categorias en el area de las TIC a nivel nacional"</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>senasoft</item>
+
+        <!--evento1    -->
+        <item>SOCLUB</item>
+        <item>30/11/2017</item>
+        <item>El objetivo principal del proyecto SOCLUB es construir un sistema de información que nos permita gestionar mediante una red social, procesos formativos, eventos, proyectos y noticias de interés. Esta será dirigida a la comunidad SENA en el centro de formación CEAI (Centro de electricidad y automatización industrial)"</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>soclub</item>
+
+
+        <!--evento 2-->
+        <item>SARA</item>
+        <item>30/11/2017</item>
+        <item>"Sistema Automatizado de Registro y Análisis\n\n"
+               "En diferentes lugares como edificios, instituciones entre otras se presentan congestiones en el control de entrada y salida de equipos electrónicos y de cómputo, objetos y vehículos en general, generando pérdida de tiempo e indisposición en la comunidad, por eso presentamos una solución en equilibrio entre costos y usabilidad."</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>sara</item>
+
+
+
+        <!--evento 3   -->
+        <item>Control de Ingreso Biometrico</item>
+        <item>30/11/2017</item>
+        <item>"El presente proyecto, se propone dentro de los módulos de desarrollo del proyecto de la Unidad de Investigación Aplicada. Para el desarrollo de este proyecto, se cuenta con el apoyo de instructores y aprendices del semillero de investigación de Teleinformática del centro de Electricidad y Automatización Industrial.  Se propone el desarrollo de una Interfaz de Programación que permita facilitar el uso del dispositivo sensor de huella dactitlar DigitalPersona permitiendo a través de una comunicación inalámbrica Wifi la toma asistencia de los aprendices a sus ambientes de formacion.
+"</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>controlingresobiometrico</item>
+
+        <!--evento 4   -->
+        <item>Realidad aumentada como herramienta didáctica</item>
+        <item>30/11/2017</item>
+        <item>"El mundo pasa por una constante evolución tecnológica, aplicando nuevas alternativas para la interactividad con el usuario. La realidad aumentada va en crecimiento siendo desarrollada en diferentes áreas como la publicidad, el entretenimiento, entre otros.\n\n"
+               "En este proyecto planteamos el desarrollo de una herramienta virtual bajo el concepto de realidad aumentada que permita la interacción de usuarios con una réplica 3D de una de las plantas didácticas usadas en los ambientes de aprendizaje del Centro de Electricidad y Automatización Industrial – CEAI – del SENA Regional Valle."</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>realidadaumentada</item>
+
+        <!--evento  5  -->
+        <item>Aplicativo web para la gestión documental</item>
+        <item>30/11/2017</item>
+        <item>"Desde el año 2010 se encuentra la siguiente problemática en el centro de electricidad y automatización industrial CEAI – Regional valle del cauca, el área de investigación y semilleros no cuenta con un aplicativo o una herramienta de software útil para la gestión de proyectos.
+Todo se trabaja por medio de un drive en google que no es seguro y se puede manipular información indebidamente, surge la necesidad de implementar una solución informática segura y útil para el control, administración, gestión y procesos del área de investigación"</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>img</item>
+
+        <!--evento  6  -->
+        <item>Smart Fitness</item>
+        <item>30/11/2017</item>
+        <item>"En la actualidad la informática y los medios electrónicos facilitan cada vez más nuestras funciones convirtiéndose en un factor muy importante en la vida de una empresa razón por la cual los métodos y hasta las tareas más sencillas buscan ser sistematizados para así asegurar su buen funcionamiento, mayor asertividad, mejor seguridad y productividad de las personas.
+Para lo cual se ha realizado una aplicación web para el GYM que reemplace el sistema manual que está funcionando actualmente,  haciéndolo usable, confiable y centralizado."</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>smartfitness</item>
+
+        <!--evento  7  -->
+        <item>"Aplicativo Academia de Tenis"</item>
+        <item>30/11/2017</item>
+        <item>"El Software de Administración ATP (Academia de Tenis Palmira)se crea Partiendo de la necesidad en tener un manejo óptimo de la información para los procesos de administración y ordenamiento en los diferentes aspectos deportivos, como apoyo a un mejor seguimiento de los mismos, el cual, apoyándose en el uso adecuado y oportuno de las TIC busca dotar a los Jugadores, Entrenadores y Administradores de la academia, de una herramienta fácil, ágil y segura que permita la interacción en los procesos básicos asociados a cada nivel de usuario."</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>atp</item>
+
+        <!--evento  8  -->
+        <item>"Comunicaciones Unificadas"</item>
+        <item>30/11/2017</item>
+        <item>"Dada la gran diversidad de medios digitales y analógicos convergentes   (voz, video, audio y datos), que hacen parte de la comunicación en una compañía, y de la gran cantidad de usuarios que necesitan consumir los servicios que dichos medios ofrecen, se hace necesario la implementación de una infraestructura tecnológica de red que soporte la integración entre estos medios y que además, ofrezca su conexión al mundo exterior a través de Internet, aplicando las nuevas tecnologías como IPv6 y parámetros actuales de seguridad tanto de disponibilidad como de cifrado."</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>comunicacionesunificadas</item>
+
+
+        <!--evento  9  -->
+        <item>"Generación Fotovoltaica"</item>
+        <item>30/11/2017</item>
+        <item>"Se desarrolló un generador termosolar de bajo costo, el cual consta de un sistema eficiente que transforma la energía termosolar en eléctrica, al cual se le realizará análisis y pruebas de funcionamiento, necesarias para la fabricación final."</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>generadorsolar</item>
+
+
+        <!--evento  10  -->
+        <item>"Diseño de Controlador de Temperatura"</item>
+        <item>30/11/2017</item>
+        <item>"Cotidianamente nos movemos en un mundo con definiciones ambiguas, si alguien dice “está por llover” nos interesa saber en qué medida esto es cierto y en cuanto tiempo sucederá. La toma de decisión a partir de información que no específica también es un procedimiento cotidiano, esto es lo que se intenta emular con lógica difusa a partir de: la observación del entorno, la formulación de reglas lógicas y de los mecanismos de toma de decisión.
+En este trabajo se usan los conceptos de lógica difusa que se aplican en control, tales son conjuntos difusos, funciones de membresía, operaciones borrosas, reglas, inferencia, defusificación y los pasos para la toma de decisión, en el diseño de un controlador de temperatura para una incubadora de pollos."</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>logicadifusa</item>
+
+
+        <!--evento  11  -->
+        <item>"Laboratorio Procesos Industriales"</item>
+        <item>30/11/2017</item>
+        <item>"El proyecto de investigación a realizar, consiste, en el  desarrollos de los procesos en una línea de producción a pequeña escala, permitiendo estudiar variables presentes en procesos industriales como: inventarios, tiempos, movimientos y cuello de botella utilizando la herramienta LEGO."</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>labprocesosindustriales</item>
+
+
+        <!--evento  12  -->
+        <item>"Aplicaciones para monitoreo de variables industriales"</item>
+        <item>30/11/2017</item>
+        <item>"Mediante este proyecto el aprendiz integra los conocimientos alcanzados en las áreas de Control de procesos continuos y secuenciales, en Comunicaciones industriales y en Sistemas de supervisión (SCADA), para elaborar un sistema automatizado totalmente integrado que le permita, a través de una red de comunicación basada en buses de campo, monitorear y controlar uno o varios procesos industriales a escala, con los equipos y dispositivos presentes en bancos didácticos de simulación."</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>monitoreo</item>
+
+
+        <!--evento  13  -->
+        <item>"Robot Movil Seguidor"</item>
+        <item>30/11/2017</item>
+        <item>"Cuando se entrena un robot, bien sean trayectorias u orientaciones, se suelen repetir las operaciones que convergen en la calibración y puesta a punto del mismo. Estas tareas repetitivas, en muchas ocasiones demandan de mucho tiempo de operación, por lo cual, surge la pregunta problema ¿cómo desarrollar una estrategia que permita a un robot movil ejecutar su auto entrenamiento, sin intervención de un operador?"</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>img</item>
+
+
+        <!--evento  14  -->
+        <item>"DED Business Innovation"</item>
+        <item>30/11/2017</item>
+        <item>"Este es un nuevo sistema de información que ayuda a organizar los procesos y actividades que se realizan dentro del centro oftalmológico, para gestionar los usuarios y mejorar la gestión administrativa del mismo."</item>
+        <item>7:00</item>
+        <item>17:00</item>
+        <item>ded</item>
+
+        <!--evento  talleres  -->
+
+        <item>"Workshop de ethical Hacking"</item>
+        <item>30/11/2017</item>
+        <item>"En este workshop se trabajara en conceptos de seguridad informática a través de hacking éticopara conocer algunos problemas de seguridad y como pueden ser mitigados."</item>
+        <item>8:30</item>
+        <item>10:30</item>
+        <item>hackinge</item>
+
+        <item>"Tecnología de Drones"</item>
+        <item>30/11/2017</item>
+        <item>"Se dictara Una Charla sobre las tecnologías que han impulsado el desarrollo de los drones, y se hará un taller práctico de programación de drones."</item>
+        <item>10:30</item>
+        <item>12:30</item>
+        <item>drones</item>
+
+        <item>"Codesys Raspberry Pi PLC"</item>
+        <item>30/11/2017</item>
+        <item>"La Raspberry es un mini ordenador de bajo costo desarrollado en Reino Unido por la fundación Raspberry, con el objetivo de estimular la enseñanza en programación. Aunque es un sistema pensado para la educación, su potencial le permitió incursionar en el diseño de soluciones de ingeniería a nivel industrial. Al contar con un sistema operativo y su desempeño computacional se puede configurar como un controlador lógico programable (PLC) para cumplir con tareas industriales de automatización. Teniendo un “PLC” de bajo costo.\n"</item>
+        <item>15:30</item>
+        <item>17:30</item>
+        <item>raspberry</item>
+
+        <item>“Modelado y prototipado rápido 3D”</item>
+        <item>30/11/2017</item>
+        <item>"En el taller de modelado e impresión 3D se abordarán las siguientes temáticas: \n- Introducción a la impresión 3D\n- Materiales para la impresión 3D\n- Procesos de impresión 3D\n- Herramienta informática para el modelado 3D\n- Aplicaciones del prototipado 3D"</item>
+        <item>13:30</item>
+        <item>15:30</item>
+        <item>modelado</item>
+
+
+        <!--evento  charlas  -->
+        <item>"Introducción a las Redes Inteligentes"</item>
+        <item>30/11/2017</item>
+        <item>"En esta charla Carlo Guillermo Viggiano Puente nos hablará acerca de las Redes Inteligentes en el Salón Miravalle"</item>
+        <item>8:30</item>
+        <item>9:15</item>
+        <item>redes</item>
+
+        <item>"El Inicio de la Transformación Digital de Cali"</item>
+        <item>30/11/2017</item>
+        <item>"En esta Charla Esteban Oliveros Ingeniero Electronico de la universidad del valle "</item>
+        <item>9:15</item>
+        <item>10:30</item>
+        <item>digicali</item>
+
+        <item>Perspectivas de Uso de la Energía Eléctrica en los Hogares"</item>
+        <item>30/11/2017</item>
+        <item>Andrés Felipe Jaramillo Ingeniero Electricista, Universidad del Valle - Gerente IGT nos dará una charla acerca de las Perspectivas de Uso de la Energía Eléctrica en los Hogares."</item>
+        <item>10:30</item>
+        <item>11:15</item>
+        <item>perspectivas</item>
+
+        <item>Sistema de Prototipado de Control en Biomecatrónica</item>
+        <item>30/11/2017</item>
+        <item>Leonardo Bermeo, Ingeniero Electrónico, Doctorado y  Postdoctorado en Ingeniería Mecánica de la Universidad del Valle y Juan Manuel Serna, Bioingenieria Universidad Santiago de Cali nos daran una charla acerca del sistema de prototipado de control en biomecatronica</item>
+        <item>11:15</item>
+        <item>12:00</item>
+        <item>prototipado</item>
+
+        <item>“Juegos como Factor Motivante en Contextos no Ludicos”</item>
+        <item>30/11/2017</item>
+        <item>Edwin Gamboa, Ingeniero de Sistemas, Maestría en Ingeniería Enfasis de la computación, Universidad del Valle, Coordinador de Área de VideoJuegos Univalle nos dará una charla acerca del uso de juegos como  como Factor Motivante en Contextos no Ludicos.</item>
+        <item>13:30</item>
+        <item>14:15</item>
+        <item>juegos</item>
+
+        <item>"Emprendimiento y Tecnología"</item>
+        <item>30/11/2017</item>
+        <item>Jhon Jairo Madroñero de SomosDigital.com.co, impartirá una charla sobre la importancia del emprendimiento y la tecnologia</item>
+        <item>14:15</item>
+        <item>15:00</item>
+        <item>emptec</item>
+
+        <item>Industria 4.0</item>
+        <item>30/11/2017</item>
+        <item>William Gutierrez, Licenciado en Matematicas, Universidad del Valle Maestria en Automatica - Universidad del Valle e Instructor SENA - CEAI hablará sobre la "Industria 4.0"</item>
+        <item>16:00</item>
+        <item>16:45</item>
+        <item>industria</item>
+
+        <item>Arquitectura de Diseño e Implementación del Sistema Automatizado del Laboratorio de Servicios Tecnológicos del CEAI - SENA</item>
+        <item>30/11/2017</item>
+        <item>Como ultima charla, Jenniffer Sidney Guerrero Prado, Ingeniera Electrónica,  M.Sc énfasis en Electrónica, Universidad del Valle nos dara una charla acerca de la Arquitectura de Diseño e Implementación del Sistema Automatizado del Laboratorio de Servicios Tecnológicos del CEAI - SENA </item>
+        <item>16:45</item>
+        <item>17:30</item>
+        <item>arquitectura</item>
+
+
+    </string-array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>
